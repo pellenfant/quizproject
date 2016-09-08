@@ -33,13 +33,13 @@ def startpage(request):
 
 def quiz(request, quiz_number):
 	context ={
-		"quiz": quizzez[int(quiz_number)-1],
+		"quiz": quizzes[int(quiz_number)-1],
 		"quiz_number": quiz_number,
 	}
 	return render(request, "quiz/quiz.html", context)
 
 def question(request):
 	return render(request, "quiz/question.html")
-	
+
 def completed(request):
 	return render (request, "quiz/results.html")
