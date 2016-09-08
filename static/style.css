@@ -1,7 +1,8 @@
 html {
 	min-height: 100%;
 }
-
+/*OBS det är viktigt att ställa in min-height inom html-taggen OCKSÅ, inte bara i body, annars kommer bakgrunden inte att bli rätt. 
+*/
 body {
 /*	background-color:#71E3CA;
 */	background: linear-gradient(to bottom, white, lightblue, lightgreen);
