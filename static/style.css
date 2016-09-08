@@ -1,8 +1,12 @@
+html {
+	min-height: 100%;
+}
+
 body {
 /*	background-color:#71E3CA;
 */	background: linear-gradient(to bottom, white, lightblue, lightgreen);
 	background-size: cover;
-	min-height: 1000px
+	min-height: 100%;
 }
 
 
@@ -18,6 +22,12 @@ h2 {
 h3 {
 	font-family: helvetica;
 }
+
+img {
+	width
+
+}
+
 .questions {
 	color: #325C08;
 	font-size: 20px;

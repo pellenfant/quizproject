@@ -43,7 +43,7 @@ def question(request, quiz_number, question_number):
 	"question_number": question_number,
 	"question": "Vilken av följande äppelsorter är röda?",
 	"answer1":"Granny Smith",
-	"answer2":"Royal Gala",
+	"answer2":"Ingrid Marie",
 	"answer3":"Transparante Blanche",
 	"quiz_number": quiz_number,
 	}
