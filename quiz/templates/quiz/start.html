@@ -17,8 +17,15 @@
 			<div class="col-md-12">
 				<h1 class="frontpageheader">You never forget your first quiz...</h1>
 				<p class="centertext"> Hungry for some learnin'? Eller vill du bara  prokrastinera en stund? <br> Här hittar du några quiz att stilla behovet med. </p>
+				<br>
+
 			</div>
 		</div>
+	</div>
+	<div class="container">
+	{% for quiz in quizzes %}
+		<p> {{ quiz.name }}</p>
+	{% endfor %}
 	</div>
 	<div class="footer"> </div>
 </body>
