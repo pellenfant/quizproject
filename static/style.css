@@ -1,0 +1,39 @@
+body {
+/*	background-color:#71E3CA;
+*/	background: linear-gradient(to right bottom, yellow, orange, #BD1900);
+	background-size: cover;
+	min-height: 2000px
+}
+
+
+h1 {
+	color:#BD1900;
+	font-family: helvetica;
+	;
+}
+h2 {
+	font-family: helvetica
+	color;
+}
+h3 {
+	font-family: helvetica;
+}
+.questions {
+	color: #325C08;
+	font-size: 20px;
+}
+.frontpageheader {
+	text-align: center;
+	font-family:'Lobster', cursive;
+}
+
+.centertext {
+	text-align: center;
+}
+/*.header {
+	height: 130px;
+	background-image: url(elefantdrop.jpg);
+}
+.footer {
+	height: 200px;
+	background-image: url(elefantdrop.jpg);*/
