@@ -38,8 +38,17 @@ def quiz(request, quiz_number):
 	}
 	return render(request, "quiz/quiz.html", context)
 
-def question(request):
-	return render(request, "quiz/question.html")
+def question(request, quiz_number, question_number):
+	context = {
+	"question_number": question_number,
+	"question": "Vilken av följande äppelsorter är röda?",
+	"answer1":"Granny Smith",
+	"answer2":"Royal Gala",
+	"answer3":"Transparante Blanche",
+	"quiz_number": quiz_number,
+	}
+	return render(request, "quiz/question.html", context)
+
 
 def completed(request):
 	return render (request, "quiz/results.html")
