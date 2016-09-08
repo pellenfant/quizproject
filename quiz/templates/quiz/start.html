@@ -27,6 +27,7 @@
 		<p> <a href="{% url 'quiz_page' quiz.quiz_number %}">
 		{{quiz.name}}
 		</a></p>
+		<img src="/static/img/icon{{ quiz.quiz_number }}.png">
 	{% endfor %}	
 	</div>
 	<div class="footer"> </div>
