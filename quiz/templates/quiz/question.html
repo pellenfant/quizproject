@@ -19,11 +19,11 @@
 
 					<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
 						{% csrf_token %}
-						<input type="radio" name="äppelsort" > {{ answer1 }} <br>
-						<input type="radio" name="äppelsort" > {{ answer2 }} <br>
-						<input type="radio" name="äppelsort" > {{ answer3 }}
+						<input type="radio" name="answer" value="1"> {{ answer1 }} <br>
+						<input type="radio" name="answer" value="2"> {{ answer2 }} <br>
+						<input type="radio" name="answer" value="3"> {{ answer3 }}
 
-					<br> <button type ="submit" class="btn btn-warning" > Nästa fråga </button> 
+					<br> <button type ="submit" class="btn btn-warning" > Nästa </button> 
 
 					<p><a href="{% url 'completed_page' quiz_number %}"> Nästa </a> </p>
 
