@@ -17,7 +17,8 @@
 
 				<h1 class="questions">{{ question_number }}. {{ question}}</h1>
 
-					<form>
+					<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
+						{% csrf_token %}
 						<input type="radio" name="äppelsort" > {{ answer1 }} <br>
 						<input type="radio" name="äppelsort" > {{ answer2 }} <br>
 						<input type="radio" name="äppelsort" > {{ answer3 }}
