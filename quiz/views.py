@@ -14,13 +14,13 @@ quizzes = [
 
 {
 	"quiz_number":3,
-	"name": "Internet",
-	"description": "Kan du din internetkuriosa?"
+	"name": "Quizquiz",
+	"description": "Det lilla meta-quizet"
 },
 {
 	"quiz_number":4,
-	"name": "Quizquiz",
-	"description": "Det lilla meta-quizet"
+	"name": "Internet",
+	"description": "Kan du din internetkuriosa?"
 },
 ]
 
