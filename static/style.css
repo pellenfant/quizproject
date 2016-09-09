@@ -5,7 +5,7 @@ html {
 */
 body {
 /*	background-color:#71E3CA;
-*/	background: linear-gradient(to bottom, lightblue, white, lightgreen);
+*/	background: linear-gradient(to bottom, #0589B5, lightgreen, white);
 	background-size: cover;
 	min-height: 100%;
 }
@@ -25,8 +25,8 @@ h3 {
 }
 
 img {
-	width:200px;
-	height:200px;
+	width:150px;
+	height:150px;
 
 }
 
@@ -37,10 +37,12 @@ img {
 .frontpageheader {
 	text-align: center;
 	font-family:'Lobster', cursive;
+	font-size: 40pt;
 }
 
 .centertext {
 	text-align: center;
+	font-size: 13pt;
 }
 /*.header {
 	height: 130px;
