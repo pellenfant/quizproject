@@ -1,28 +1,7 @@
 from django.shortcuts import render
 
-quizzes = [
-{
-	"quiz_number":1,
-	"name":"Vad kan du om äpplen?",
-	"description":"I det här quizet testar vi vad du kan om äpplen – och då menar vi förstås inte de svindyra teknikprodukterna, utan de underbara, väldoftande frukterna."
-},
-{
-	"quiz_number":2,
-	"name":"Elefanter",
-	"description":"Elefantkunskap 1.0"
-},
 
-{
-	"quiz_number":3,
-	"name": "Quizquiz",
-	"description": "Det lilla meta-quizet"
-},
-{
-	"quiz_number":4,
-	"name": "Internet",
-	"description": "Kan du din internetkuriosa?"
-},
-]
+	
 
 # Create your views here.
 def startpage(request):
