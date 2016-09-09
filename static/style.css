@@ -12,13 +12,13 @@ body {
 
 
 h1 {
-	color:#BD1900;
+	color:#8C0101;
 	font-family: helvetica;
 	;
 }
 h2 {
 	font-family:'Lobster', cursive;
-	color:#BD1900;
+	color:#8C0101;
 }
 h3 {
 	font-family: helvetica;
@@ -31,8 +31,9 @@ img {
 }
 
 .questions {
-	color: #325C08;
-	font-size: 20px;
+	color: white;
+	font-size: 18px;
+
 }
 .frontpageheader {
 	text-align: center;
