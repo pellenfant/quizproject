@@ -75,10 +75,9 @@ WSGI_APPLICATION = 'quizsite.wsgi.application'
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default': dj_database_url.config(
+        default="sqlite:////{0}".format(os.path.join(BASE_DIR,"db.sqlite3"))
+        )
 }
 
 
