@@ -36,7 +36,7 @@ def question(request, quiz_number, question_number):
 def answer(request, quiz_number, question_number):
 	saved_answers = request.session.get(quiz_number, {})
 	answer = int(request.POST["answer"])
-	saved_answer [question_number] = answer
+	saved_answers [question_number] = answer
 	request.session[quiz_number] = saved_answers
 
 	question_number =int(question_number)
