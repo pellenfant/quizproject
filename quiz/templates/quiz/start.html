@@ -26,9 +26,9 @@
 		<div class="row">
 			{% for quiz in quizzes %}
 			<div class="col-md-3">
-				<p> <center> <a href="{% url 'quiz_page' quiz.quiz_number %}"> <img src="/static/img/icon{{ quiz.quiz_number }}.png" class="img-circle">
+				<p> <a href="{% url 'quiz_page' quiz.quiz_number %}"> <img src="/static/img/icon{{ quiz.quiz_number }}.png" class="img-circle">
 				<br> {{quiz.name}}
-				</a></center></p>
+				</a></p>
 			</div>
 	{% endfor %}	
 	</div>
